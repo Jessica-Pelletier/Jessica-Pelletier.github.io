@@ -85,7 +85,7 @@
                                 <div class="profile bg-gradient-primary-to-secondary">
                                     <!-- TIP: For best results, use a photo with a transparent background like the demo example below-->
                                     <!-- Watch a tutorial on how to do this on YouTube (link)-->
-                                    <!-- <img class="profile-img" src="assets/profile.png" alt="..." /> -->
+                                    <img class="profile-img" src="assets/profile.png" alt="..." />
                                     <div class="dots-1">
                                         <!-- SVG Dots-->
                                         <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 191.6 1215.4" style="enable-background: new 0 0 191.6 1215.4" xml:space="preserve">
@@ -340,49 +340,67 @@
 
 
 <!-- PROJECTS SECTION -->
-            <section id="projects" class="py-5 bg-onyx">
-                <div class="container px-5 mb-5">
-                    <div class="text-center mb-5">
-                        <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
-                    </div>
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-lg-11 col-xl-9 col-xxl-8">
-                            <!-- Project Card 1-->
-                            <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
-                                <a href="/impactAtlas.html">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="p-5">
-                                            <h2 class="fw-bolder">The Impact Atlas</h2>
-                                            <p>Impact Atlas is a concept prototype for an interactive resource hub mapping social impact initiatives worldwide. </p>
-                                            <p>
-                                                Using Leaflet.js visualization, it demonstrates how to connect changemakers with methodologies and implementation guides through an accessible digital platform.</p>
-                                        </div>
-                                   
-                                        <img class="img-fluid card-image" src="/assets/jessica-pelletier-desktop-mockups.png" alt="Preview of Impact Atlas" />
-
-                                    </div>
+<section id="projects" class="py-5 bg-onyx">
+    <div class="container px-5 mb-5">
+        <div class="text-center mb-5">
+            <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Projects</span></h1>
+        </div>
+        <div class="row gx-5 justify-content-center">
+            <div class="col-lg-11 col-xl-9 col-xxl-8">
+                <!-- Project Card 1-->
+                <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                    <a href="/impactAtlas.html" class="text-decoration-none text-dark">
+                        <div class="card-body p-0">
+                            <div class="row g-0">
+                                <div class="col-md-7 p-4 p-md-5">
+                                    <h2 class="fw-bolder">The Impact Atlas</h2>
+                                    <p>Impact Atlas is a concept prototype for an interactive resource hub mapping social impact initiatives worldwide.</p>
+                                    <p>Using Leaflet.js visualization, it demonstrates how to connect changemakers with methodologies and implementation guides through an accessible digital platform.</p>
                                 </div>
-                            </a>
-                            </div>
-                            <!-- Project Card 2-->
-                            <div class="card overflow-hidden shadow rounded-4 border-0">
-                                <a href="/timetrack.html">
-                                <div class="card-body p-0">
-                                    <div class="d-flex align-items-center">
-                                        <div class="p-5">
-                                            <h2 class="fw-bolder">Time Track</h2>
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius at enim eum illum aperiam placeat esse? Mollitia omnis minima saepe recusandae libero, iste ad asperiores! Explicabo commodi quo itaque! Ipsam!</p>
-                                        </div>
-                                        <img class="img-fluid card-image" src="/assets/timetrack.png" alt="TimeTrack app mockups" />
-                                    </div>
+                                <div class="col-md-5">
+                                    <img class="img-fluid h-100 object-fit-cover" src="/assets/jessica-pelletier-desktop-mockups.png" alt="Preview of Impact Atlas" />
                                 </div>
-                            </a>
                             </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-            </section>
+                <!-- Project Card 2-->
+                <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                    <a href="/timetrack.html" class="text-decoration-none text-dark">
+                        <div class="card-body p-0">
+                            <div class="row g-0">
+                                <div class="col-md-7 p-4 p-md-5">
+                                    <h2 class="fw-bolder">Time Track</h2>
+                                    <p>The TimeSheet App is a mobile-first solution built with React Native and Firebase that simplifies time tracking for both employees and employers. It offers features like timesheet management, project tracking, role-based access control, and CSV export for seamless payroll and reporting integration.</p>
+                                </div>
+                                <div class="col-md-5">
+                                    <img class="img-fluid h-100 object-fit-cover" src="/assets/timetrack.png" alt="TimeTrack app mockups" />
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Project Card 3-->
+                <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                    <a href="/growcast.html" class="text-decoration-none text-dark">
+                        <div class="card-body p-0">
+                            <div class="row g-0">
+                                <div class="col-md-7 p-4 p-md-5">
+                                    <h2 class="fw-bolder">GrowCast</h2>
+                                    <p>An experimental website built with JavaScript, HTML, and CSS on a Node.js backend. It uses the user's location to fetch real-time weather data and garden metrics from the Open-Meteo API.</p>
+                                </div>
+                                <div class="col-md-5">
+                                    <img class="img-fluid h-100 object-fit-cover" src="/assets/growcast.png" alt="Growcast home page" />
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
             <!-- Call to action section-->
             <section class="py-3 bg-gradient-primary-to-secondary text-white">
                 <div class="container px-5 my-5">
