@@ -174,14 +174,3 @@
 
 
 
-@media (max-width: 767.98px) {
-    .card .col-md-5 img {
-      height: auto !important;
-      max-height: 250px;
-      object-fit: contain !important;
-    }
-    
-    .card .col-md-5 {
-      height: auto !important;
-    }
-  }
